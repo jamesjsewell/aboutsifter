@@ -281,3 +281,18 @@ img::selection {
 img::-moz-selection {
   background: transparent;
 }
+
+.profiles_wrapper{
+  margin: auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.profile_pic{
+  max-width: 100%;
+  width: 200px;
+  height: 200px;
+  margin: .5rem;
+  padding: .5rem;
+}
